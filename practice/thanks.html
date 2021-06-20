@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>極楽亭</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="scss/style.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__nav">
+            <div class="header__nav-img">
+                <a href="">
+                    <img src="image/logo.png" alt="タイトル画像">
+                </a>
+            </div>
+            <button type="button" id="js-buttonHamburger" class="c-button p-hamburger" aria-controls="global-nav"
+                aria-expanded="false">
+                <span class="p-hamburger__line">
+                </span>
+            </button>
+            <ul class="header__nav-list">
+                <li><a href="">宿泊予約</a></li>
+                <li><a href="">観光情報</a></li>
+                <li><a href="">よくあるご質問</a></li>
+                <li><a href="">お問い合わせ</a></li>
+            </ul>
+        </div>
+        <ul class="header__spNavi" id="spNavi">
+            <li><a href="">宿泊予約</a></li>
+            <li><a href="">観光情報</a></li>
+            <li><a href="">よくあるご質問</a></li>
+            <li><a href="">お問い合わせ</a></li>
+        </ul>
+    </header>
+    <main class="main__blog">
+        <section class="main__blog-top">
+            <div class="main__blog-top-img">
+                <img src="image/street-409993_1920.png" alt="">
+            </div>
+        </section>
+        <section class="main__thanks">
+           <p>お問い合わせいただきありがとうございます。<br>内容を確認した後に、担当者よりご連絡を差し上げます。</p>
+           <a href="index.html">ホームへ戻る</a>
+        </section>
+    </main>
+    <footer class="footer">
+        <ul class="footer__list">
+            <li><a href="">利用規約</a></li>
+            <li><a href="">プライバシーポリシー</a></li>
+            <li><a href="">個人商取引法に基づく表記</a></li>
+            <li><a href="">お問い合わせ</a></li>
+        </ul>
+        <div class="footer__img">
+            <img src="image/logo.png" alt="">
+        </div>
+        <small class="footer__small">
+            Copyright (c) 2021 極楽亭 All Rights Reserved.
+        </small>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="js/slick-1.8.1/slick/slick.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="js/script.js"></script>
+</body>
+</html>
